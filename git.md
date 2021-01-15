@@ -1,8 +1,34 @@
-git init - 폴더당 한번! 
-만약에 master가 보인다? init 하지 마세요!
+# Git
 
-뭔가 파일을 기록하고 싶다면?
-git add 파일명
-git commit -m '커밋 메시지'
+1. 저장소 (repositary) 만들기 - git이 관리하는 폴더 (directory)
 
-수정 발생 시 위 두 명령어 반복
+   ```bash
+   $ git init
+   ```
+
+2. 파일을 스테이징하기
+
+   ```bash
+   $ git add 파일명
+   ```
+
+3. 파일을 커밋하기
+
+   ```bash
+   $ git commit -m '커밋할 메세지 내용 (변경사항 요약 기록)'
+   ```
+
+- 상태 확인하기
+
+  ```bash
+  $ git status
+  ```
+
+- 내가 누군지 정보 입력하기
+
+  ```bash
+  $ git config --global user.name 유저이름
+  $ git config --global user.email 유저이메일
+  ```
+
+  
